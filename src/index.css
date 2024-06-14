@@ -1,0 +1,47 @@
+.posts-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.post {
+  margin-bottom: 2rem;
+}
+
+.post-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.post-body {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #666;
+}
+
+.error-message {
+  font-size: 4rem;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .post-title {
+    font-size: 1.2rem;
+  }
+  .post-body {
+    font-size: 1rem;
+  }
+}
